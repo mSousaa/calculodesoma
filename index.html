@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somar medidas</title>
+</head>
+<body>
+    <main id="container">
+        <section id="img">
+            <img src="">
+        </section>
+
+        <section id="calcular">
+            <form id="form">
+                <h1 id="tittle">
+                    Somar medidas - Sousa
+                </h1>
+
+                <div class="inputbox">
+                    <label for="medida1">
+                        Primeira medida
+                    </label>
+                    <div>
+                        <input type="number" id="medida1" required> <br>
+                        <span>+</span>
+                    </div>
+                </div>
+
+                <div class="inputbox">
+                    <label for="medida2">
+                        Segunda medida
+                    </label>
+                    <div>
+                        <input type="number" id="medida2" required> <br>
+                        <span>+</span>
+                    </div>
+                </div>
+
+                <div class="inputbox">
+                    <label for="medida3">
+                        Terceira medida
+                    </label>
+                    <div>
+                        <input type="number" id="medida3" required> <br>
+                        <span>+</span>
+                    </div>
+                </div>
+
+                <div class="inputbox">
+                    <label for="medida4">
+                        Quarta medida
+                    </label>
+                    <div>
+                        <input type="number" id="medida4" required> <br>
+                    </div>
+                </div>
+
+                <button id="calcular">
+                    Calcular
+                </button>
+            </form>
+
+            <div id="infos">
+                <div id="resultado">
+                    <span>A soma é</span>
+                </div>
+                <div>
+                    <span id="valor"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
